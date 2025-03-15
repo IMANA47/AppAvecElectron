@@ -1,0 +1,16 @@
+{
+  "name": "myappavecelectron",
+  "version": "1.0.0",
+  "description": " Projet pour  apprendre a utiliser electron et transformer des app web en app desktop qui fonction sur  différentes plateformes (Windows, macOS, Linux) ",
+  "license": "MIT",
+  "author": "francois Nsengimana",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+        "start": "ELECTRON_DISABLE_VULKAN=1 electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^35.0.1"
+  }
+}
